@@ -21,6 +21,10 @@ body {
 
 .stats-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -73,3 +77,4 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
